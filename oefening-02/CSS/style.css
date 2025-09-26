@@ -1,0 +1,16 @@
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+li {
+  margin-left: 20px;
+  display: list-item;
+  list-style-type: decimal;
+}
+
+li:nth-child(even) {
+  background-color: gray;
+}
+li:nth-child(odd) {
+  color: blue;
+}
